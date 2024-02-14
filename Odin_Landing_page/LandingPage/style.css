@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.sec1Container{
+    background-color: #1F2937;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+.sec1Container .sec1{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:baseline;
+}
+.sec1 .navContainer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navContainer .signUp{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec1 .headerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+}
+.headerContainer .intro{
+    width: 40%;
+    /* padding: 10px; */
+    height: 250px;
+}
+.headerContainer .image{
+    background:url(./images/pexels-eberhard-grossgasteiger-1624496.jpg);
+    background-position: center;
+    background-size:cover;
+    /* border-top-style:groove; */
+    /* border-bottom-style: groove; */
+    width: 55%;
+    height: 250px;
+
+}
+.signUpbutton{
+    background-color: #3882f6; 
+    color: #e5e7eb; 
+    width: 80px;
+    padding: 5px 0;
+    margin-top: 15px;
+    border-color: #3882f6;
+    border-radius: 5px;
+    border-style: solid;
+}
+.sec2Container{
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+.sec2Title{
+    font-size: 26px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -45px;
+    width: 100%;
+}
+.pictures{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+}
+figure{
+    width: 15%;
+    height: 250px;
+}
+figcaption{
+    width: 100%;
+    text-align: center;
+}
+figure img{
+
+    background-color: rgb(151, 136, 116);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(86, 210, 210);
+}
+.citationContainer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+.citation{
+    margin:0 auto;
+    width: 65%;
+    font-size: 26px;
+    font-weight: lighter;
+    color:#1F2937;
+}
+.citationContainer .person{
+    text-align: right;
+    width: 60%;
+    margin:0 auto;
+    font-size: 20px;
+    color:#1F2937;
+}
+.actionContainer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.actionContainer .callContainer{
+    color: #fff;
+    width: 70%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    gap:150px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #3882f6;
+}
+
+button{
+    background-color:#3882f6;
+    color: #fff;
+    padding:2px 15px;
+    border:solid #fff;
+    border-radius: 3px;
+}
+.footer{
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function computerChoice(){
+        const x = parseInt(Math.floor(Math.random()*3)+1);
+        if(x===1) return "rock";
+        if(x===2) return "paper";
+        if(x===3) return "scissors";
+        }
+        function playerChoice(){
+            return ((prompt("Rock paper scissors?").trim().toLowerCase()));
+        }
+        function playGame(){
+        do{ const c1=computerChoice();
+            const p1=playerChoice();
+            alert("computer played "+ c1);
+            let result = p1===c1?"Tie Game":
+            c1==="rock"&&p1==="paper"?"Player Wins":
+            c1==="paper"&&p1==="scissors"?"Player Wins":
+            c1==="scissors"&&p1==="rock"?"player Wins":
+            "Computer Wins";
+            alert(result);
+            }while(confirm("do you want to play again?"))
+            alert("good bye!");
+        }
+        playGame();
+    </script>
+</body>
+</html>
